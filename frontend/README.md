@@ -2,6 +2,19 @@
 
 This directory contains the frontend for the Data Visualization Dashboard, built with React.js. It consumes data from the Node.js Express backend API to display interactive charts and statistics.
 
+## Getting Started
+
+To get a local copy of this project up and running, follow these simple steps.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/ravitejaakella3/black_coffer.git
+    ```
+2.  **Navigate to the frontend directory:**
+    ```bash
+    cd black_coffer/frontend
+    ```
+
 ## Features
 
 -   **Interactive Filters:** Dynamically filter data by year, topic, sector, region, pestle, source, and country.
@@ -15,11 +28,7 @@ This directory contains the frontend for the Data Visualization Dashboard, built
 
 ## Setup
 
-1.  **Navigate to the frontend directory:**
-    ```bash
-    cd frontend
-    ```
-2.  **Install dependencies:**
+1.  **Install dependencies:**
     ```bash
     npm install
     ```
@@ -47,4 +56,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
 

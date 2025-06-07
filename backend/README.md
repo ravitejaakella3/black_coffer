@@ -2,6 +2,19 @@
 
 This directory contains the backend API for the Data Visualization Dashboard. It's built with Node.js and Express, and it interacts with a MongoDB database to serve filtered and aggregated data to the frontend.
 
+## Getting Started
+
+To get a local copy of this project up and running, follow these simple steps.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/ravitejaakella3/black_coffer.git
+    ```
+2.  **Navigate to the backend directory:**
+    ```bash
+    cd black_coffer/backend
+    ```
+
 ## Features
 
 -   **RESTful API:** Provides endpoints for fetching data, filter options, and various aggregations for charts.
@@ -10,15 +23,11 @@ This directory contains the backend API for the Data Visualization Dashboard. It
 
 ## Setup
 
-1.  **Navigate to the backend directory:**
-    ```bash
-    cd backend
-    ```
-2.  **Install dependencies:**
+1.  **Install dependencies:**
     ```bash
     npm install
     ```
-3.  **Environment Variables:**
+2.  **Environment Variables:**
     Create a `.env` file in this directory with the following variable:
     ```
     MONGO_URI=your_mongodb_connection_string
@@ -27,7 +36,7 @@ This directory contains the backend API for the Data Visualization Dashboard. It
     *   Replace `your_mongodb_connection_string` with your actual MongoDB connection URI.
     *   `PORT` is the port on which the server will run (defaulting to 5332 as per your frontend configuration).
 
-4.  **Database Seeding (if not already done):**
+3.  **Database Seeding (if not already done):**
     Ensure your `jsondata.json` file is imported into your MongoDB database. You might need a separate script or use `mongoimport`.
     Example `mongoimport` command (run from your terminal where `jsondata.json` is accessible):
     ```bash
