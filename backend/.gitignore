@@ -1,0 +1,9 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log
+
+# IDEs and others
+.idea/
+.vscode/
+.DS_Store 
